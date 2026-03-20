@@ -1,0 +1,20 @@
+{
+  "threshold": 0.98,
+  "best_model_name": "Random Forest (tuned)",
+  "features": [
+    "amount",
+    "amount_log",
+    "amount_bucket",
+    "hour",
+    "hour_sin",
+    "hour_cos",
+    "is_night",
+    "is_evening",
+    "country_enc",
+    "payment_method_enc",
+    "device_enc",
+    "mobile_night",
+    "wallet_night",
+    "high_amt_mobile"
+  ]
+}
