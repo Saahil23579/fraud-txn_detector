@@ -10,6 +10,7 @@ fraud-detection/
 │
 ├── src/                                   ← Source code
 │   └── fraud.py
+|   └── fraud_api.py
 │
 ├── models/                                ← Saved model artefacts (auto-generated)
 │   ├── fraud_model.pkl
@@ -55,7 +56,7 @@ Make sure your CSV is inside the `data/` folder, then:
 
 ```bash
 cd src
-python fraud.py
+python fraud_api.py
 ```
 
 > **Note:** If you moved the CSV to `data/`, update line 55 in `fraud.py`:
